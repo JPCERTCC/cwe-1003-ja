@@ -1,0 +1,2308 @@
+{
+  "cwe-1003": {
+    "version": "4.9",
+    "url": "https://cwe.mitre.org/data/definitions/1003.html",
+    "weaknesses": [
+      {
+        "weakness_id": 20,
+        "title": [
+          {
+            "en": [
+              "Improper Input Validation"
+            ]
+          },
+          {
+            "ja": [
+              "不適切な入力確認",
+              "不適切な入力検証"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      {
+        "weakness_id": 1284,
+        "title": [
+          {
+            "en": [
+              "Improper Validation of Specified Quantity in Input"
+            ]
+          },
+          {
+            "ja": [
+              "数値の入力に対する不適切な検証"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/1284.html"
+      },
+      {
+        "weakness_id": 129,
+        "title": [
+          {
+            "en": [
+              "Improper Validation of Array Index"
+            ]
+          },
+          {
+            "ja": [
+              "配列インデックスに対する不適切な検証"
+            ]
+          }
+        ],
+        "abstraction": "Variant",
+        "url": "https://cwe.mitre.org/data/definitions/129.html"
+      },
+      {
+        "weakness_id": 74,
+        "title": [
+          {
+            "en": [
+              "Improper Neutralization of Special Elements in Output Used by a Downstream Component ",
+              "Injection"
+            ]
+          },
+          {
+            "ja": [
+              "インジェクション"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/74.html"
+      },
+      {
+        "weakness_id": 1236,
+        "title": [
+          {
+            "en": [
+              "Improper Neutralization of Formula Elements in a CSV File"
+            ]
+          },
+          {
+            "ja": [
+              "CSVファイルインジェクション",
+              "数式インジェクション",
+              "CSVファイル内の数式インジェクション"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/1236.html"
+      },
+      {
+        "weakness_id": 77,
+        "title": [
+          {
+            "en": [
+              "Improper Neutralization of Special Elements used in a Command ",
+              "Command Injection"
+            ]
+          },
+          {
+            "ja": [
+              "コマンドインジェクション"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/77.html"
+      },
+      {
+        "weakness_id": 78,
+        "title": [
+          {
+            "en": [
+              "Improper Neutralization of Special Elements used in an OS Command ",
+              "OS Command Injection"
+            ]
+          },
+          {
+            "ja": [
+              "OSコマンドインジェクション"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      {
+        "weakness_id": 79,
+        "title": [
+          {
+            "en": [
+              "Improper Neutralization of Input During Web Page Generation ",
+              "Cross-site Scripting"
+            ]
+          },
+          {
+            "ja": [
+              "クロスサイトスクリプティング"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      {
+        "weakness_id": 88,
+        "title": [
+          {
+            "en": [
+              "Improper Neutralization of Argument Delimiters in a Command ",
+              "Argument Injection"
+            ]
+          },
+          {
+            "ja": [
+              "引数インジェクション",
+              "アーギュメントインジェクション"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/88.html"
+      },
+      {
+        "weakness_id": 89,
+        "title": [
+          {
+            "en": [
+              "Improper Neutralization of Special Elements used in an SQL Command ",
+              "SQL Injection"
+            ]
+          },
+          {
+            "ja": [
+              "SQLインジェクション"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      {
+        "weakness_id": 91,
+        "title": [
+          {
+            "en": [
+              "XML Injection ",
+              "aka Blind XPath Injection"
+            ]
+          },
+          {
+            "ja": [
+              "XMLインジェクション",
+              "ブラインドXPathインジェクション",
+              "XMLインジェクション（もしくはブラインドXPathインジェクション）"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/91.html"
+      },
+      {
+        "weakness_id": 917,
+        "title": [
+          {
+            "en": [
+              "Improper Neutralization of Special Elements used in an Expression Language Statement ",
+              "Expression Language Injection"
+            ]
+          },
+          {
+            "ja": [
+              "式言語インジェクション",
+              "EL式インジェクション"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/917.html"
+      },
+      {
+        "weakness_id": 94,
+        "title": [
+          {
+            "en": [
+              "Improper Control of Generation of Code ",
+              "Code Injection"
+            ]
+          },
+          {
+            "ja": [
+              "コードインジェクション"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/94.html"
+      },
+      {
+        "weakness_id": 116,
+        "title": [
+          {
+            "en": [
+              "Improper Encoding or Escaping of Output"
+            ]
+          },
+          {
+            "ja": [
+              "出力に対する不適切なエンコード処理もしくはエスケープ処理",
+              ""
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/116.html"
+      },
+      {
+        "weakness_id": 838,
+        "title": [
+          {
+            "en": [
+              "Inappropriate Encoding for Output Context"
+            ]
+          },
+          {
+            "ja": [
+              "出力コンテキストに対する不適切なエンコード処理",
+              ""
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/838.html"
+      },
+      {
+        "weakness_id": 119,
+        "title": [
+          {
+            "en": [
+              "Improper Restriction of Operations within the Bounds of a Memory Buffer"
+            ]
+          },
+          {
+            "ja": [
+              "バッファーエラー",
+              "メモリバッファ―エラー"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/119.html"
+      },
+      {
+        "weakness_id": 120,
+        "title": [
+          {
+            "en": [
+              "Buffer Copy without Checking Size of Input ",
+              "Classic Buffer Overflow"
+            ]
+          },
+          {
+            "ja": [
+              "古典的バッファーオーバーフロー",
+              "バッファーオーバーフロー"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/120.html"
+      },
+      {
+        "weakness_id": 125,
+        "title": [
+          {
+            "en": [
+              "Out-of-bounds Read"
+            ]
+          },
+          {
+            "ja": [
+              "境界外読み取り"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/125.html"
+      },
+      {
+        "weakness_id": 787,
+        "title": [
+          {
+            "en": [
+              "Out-of-bounds Write"
+            ]
+          },
+          {
+            "ja": [
+              "境界外書き込み"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/787.html"
+      },
+      {
+        "weakness_id": 824,
+        "title": [
+          {
+            "en": [
+              "Access of Uninitialized Pointer"
+            ]
+          },
+          {
+            "ja": [
+              "初期化していないポインタ(への|の|へ)アクセス"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/824.html"
+      },
+      {
+        "weakness_id": 200,
+        "title": [
+          {
+            "en": [
+              "Exposure of Sensitive Information to an Unauthorized Actor"
+            ]
+          },
+          {
+            "ja": [
+              "情報漏えい",
+              "認可されていないActor(への|へ)機微な情報の漏えい"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/200.html"
+      },
+      {
+        "weakness_id": 203,
+        "title": [
+          {
+            "en": [
+              "Observable Discrepancy"
+            ]
+          },
+          {
+            "ja": [
+              "セキュリティ関連の処理に対するレスポンスの違いに起因する情報漏えい"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/203.html"
+      },
+      {
+        "weakness_id": 209,
+        "title": [
+          {
+            "en": [
+              "Generation of Error Message Containing Sensitive Information"
+            ]
+          },
+          {
+            "ja": [
+              "エラーメッセージによる情報漏えい",
+              "機微な情報を含むエラーメッセージの生成"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/209.html"
+      },
+      {
+        "weakness_id": 532,
+        "title": [
+          {
+            "en": [
+              "Insertion of Sensitive Information into Log File"
+            ]
+          },
+          {
+            "ja": [
+              "ログファイルからの情報漏えい",
+              "ログファイルに含まれる機微な情報"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/532.html"
+      },
+      {
+        "weakness_id": 269,
+        "title": [
+          {
+            "en": [
+              "Improper Privilege Management"
+            ]
+          },
+          {
+            "ja": [
+              "不適切な権限管理"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/269.html"
+      },
+      {
+        "weakness_id": 287,
+        "title": [
+          {
+            "en": [
+              "Improper Authentication"
+            ]
+          },
+          {
+            "ja": [
+              "不適切な認証"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/287.html"
+      },
+      {
+        "weakness_id": 290,
+        "title": [
+          {
+            "en": [
+              "Authentication Bypass by Spoofing"
+            ]
+          },
+          {
+            "ja": [
+              "スプーフィングによる認証回避",
+              "なりすましによる認証回避"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/290.html"
+      },
+      {
+        "weakness_id": 294,
+        "title": [
+          {
+            "en": [
+              "Authentication Bypass by Capture-replay"
+            ]
+          },
+          {
+            "ja": [
+              "Capture-replay による認証回避"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/294.html"
+      },
+      {
+        "weakness_id": 295,
+        "title": [
+          {
+            "en": [
+              "Improper Certificate Validation"
+            ]
+          },
+          {
+            "ja": [
+              "不正な証明書検証",
+              "不適切な証明書検証"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/295.html"
+      },
+      {
+        "weakness_id": 306,
+        "title": [
+          {
+            "en": [
+              "Missing Authentication for Critical Function"
+            ]
+          },
+          {
+            "ja": [
+              "重要な機能に対する認証の欠如",
+              "クリティカルな機能に対する認証の欠如"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/306.html"
+      },
+      {
+        "weakness_id": 307,
+        "title": [
+          {
+            "en": [
+              "Improper Restriction of Excessive Authentication Attempts"
+            ]
+          },
+          {
+            "ja": [
+              "過度な認証試行の不適切な制限",
+              "過度な認証試行に対する不適切な制限"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/307.html"
+      },
+      {
+        "weakness_id": 521,
+        "title": [
+          {
+            "en": [
+              "Weak Password Requirements"
+            ]
+          },
+          {
+            "ja": [
+              "不十分なパスワード強度"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/521.html"
+      },
+      {
+        "weakness_id": 522,
+        "title": [
+          {
+            "en": [
+              "Insufficiently Protected Credentials"
+            ]
+          },
+          {
+            "ja": [
+              "認証情報の不十分な保護"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/522.html"
+      },
+      {
+        "weakness_id": 640,
+        "title": [
+          {
+            "en": [
+              "Weak Password Recovery Mechanism for Forgotten Password"
+            ]
+          },
+          {
+            "ja": [
+              "パスワードを忘れた場合の脆弱なパスワードリカバリの仕組み",
+              "脆弱なパスワードリカバリ"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/640.html"
+      },
+      {
+        "weakness_id": 798,
+        "title": [
+          {
+            "en": [
+              "Use of Hard-coded Credentials"
+            ]
+          },
+          {
+            "ja": [
+              "ハードコードされた認証情報の使用"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/798.html"
+      },
+      {
+        "weakness_id": 311,
+        "title": [
+          {
+            "en": [
+              "Missing Encryption of Sensitive Data"
+            ]
+          },
+          {
+            "ja": [
+              "重要(な)データに対する暗号化の欠如",
+              "重要(な)データが暗号化されていない問題",
+              "重要(な)データに対する暗号化の未実施"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/311.html"
+      },
+      {
+        "weakness_id": 312,
+        "title": [
+          {
+            "en": [
+              "Cleartext Storage of Sensitive Information"
+            ]
+          },
+          {
+            "ja": [
+              "重要(な)情報の平文保存"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/312.html"
+      },
+      {
+        "weakness_id": 319,
+        "title": [
+          {
+            "en": [
+              "Cleartext Transmission of Sensitive Information"
+            ]
+          },
+          {
+            "ja": [
+              "重要(な)情報の平文送信",
+              "重要(な)情報を平文で送信"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/319.html"
+      },
+      {
+        "weakness_id": 326,
+        "title": [
+          {
+            "en": [
+              "Inadequate Encryption Strength"
+            ]
+          },
+          {
+            "ja": [
+              "不十分な暗号強度",
+              "暗号強度が不十分",
+              "暗号の強度不足"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/326.html"
+      },
+      {
+        "weakness_id": 327,
+        "title": [
+          {
+            "en": [
+              "Use of a Broken or Risky Cryptographic Algorithm"
+            ]
+          },
+          {
+            "ja": [
+              "解読される恐れの高い暗号アルゴリズムの使用",
+              "非推奨暗号アルゴリズムの使用"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/327.html"
+      },
+      {
+        "weakness_id": 916,
+        "title": [
+          {
+            "en": [
+              "Use of Password Hash With Insufficient Computational Effort"
+            ]
+          },
+          {
+            "ja": [
+              "強度が不十分なパスワードハッシュの使用",
+              "パスワードハッシュの強度が不十分"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/916.html"
+      },
+      {
+        "weakness_id": 330,
+        "title": [
+          {
+            "en": [
+              "Use of Insufficiently Random Values"
+            ]
+          },
+          {
+            "ja": [
+              "予測可能な（ランダム値|乱数）の使用"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      {
+        "weakness_id": 331,
+        "title": [
+          {
+            "en": [
+              "Insufficient Entropy"
+            ]
+          },
+          {
+            "ja": [
+              "エントロピー不足"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/331.html"
+      },
+      {
+        "weakness_id": 335,
+        "title": [
+          {
+            "en": [
+              "Incorrect Usage of Seeds in Pseudo-Random Number Generator ",
+              "PRNG"
+            ]
+          },
+          {
+            "ja": [
+              "PRNG におけるシードの不正な使用",
+              "PRNG における不適切なシード管理"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/335.html"
+      },
+      {
+        "weakness_id": 338,
+        "title": [
+          {
+            "en": [
+              "Use of Cryptographically Weak Pseudo-Random Number Generator ",
+              "PRNG"
+            ]
+          },
+          {
+            "ja": [
+              "暗号論的強度が不十分なPRNGの使用"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/338.html"
+      },
+      {
+        "weakness_id": 345,
+        "title": [
+          {
+            "en": [
+              "Insufficient Verification of Data Authenticity"
+            ]
+          },
+          {
+            "ja": [
+              "データの信頼性確認が不十分"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/345.html"
+      },
+      {
+        "weakness_id": 346,
+        "title": [
+          {
+            "en": [
+              "Origin Validation Error"
+            ]
+          },
+          {
+            "ja": [
+              "送信元・提供元の確認をしていない | 確認が不十分",
+              "オリジン確認エラー"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/346.html"
+      },
+      {
+        "weakness_id": 347,
+        "title": [
+          {
+            "en": [
+              "Improper Verification of Cryptographic Signature"
+            ]
+          },
+          {
+            "ja": [
+              "デジタル署名の（不適切な|不十分な）検証"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/347.html"
+      },
+      {
+        "weakness_id": 352,
+        "title": [
+          {
+            "en": [
+              "Cross-Site Request Forgery ",
+              "CSRF"
+            ]
+          },
+          {
+            "ja": [
+              "クロスサイトリクエストフォージェリ"
+            ]
+          }
+        ],
+        "abstraction": "Composite",
+        "url": "https://cwe.mitre.org/data/definitions/352.html"
+      },
+      {
+        "weakness_id": 354,
+        "title": [
+          {
+            "en": [
+              "Improper Validation of Integrity Check Value"
+            ]
+          },
+          {
+            "ja": [
+              "データ(完全性|整合性)の検証不備",
+              "データ(完全性|整合性)の検証が（不適切|不十分|正しくない）"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/354.html"
+      },
+      {
+        "weakness_id": 924,
+        "title": [
+          {
+            "en": [
+              "Improper Enforcement of Message Integrity During Transmission in a Communication Channel"
+            ]
+          },
+          {
+            "ja": [
+              "通信チャネルで送受信するメッセージに対する完全性の検証不備"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/924.html"
+      },
+      {
+        "weakness_id": 362,
+        "title": [
+          {
+            "en": [
+              "Concurrent Execution using Shared Resource with Improper Synchronization ",
+              "Race Condition"
+            ]
+          },
+          {
+            "ja": [
+              "競合状態",
+              "リソースを共有する複数のコードが実行される際の同期処理が不適切",
+              "コードシーケンスによる不適切な排他制御"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/362.html"
+      },
+      {
+        "weakness_id": 367,
+        "title": [
+          {
+            "en": [
+              "Time-of-check Time-of-use ",
+              "TOCTOU Race Condition"
+            ]
+          },
+          {
+            "ja": [
+              "Time-of-check Time-of-use (TOCTOU) 競合状態"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/367.html"
+      },
+      {
+        "weakness_id": 400,
+        "title": [
+          {
+            "en": [
+              "Uncontrolled Resource Consumption"
+            ]
+          },
+          {
+            "ja": [
+              "リソースの枯渇",
+              "無制限なリソース消費"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/400.html"
+      },
+      {
+        "weakness_id": 770,
+        "title": [
+          {
+            "en": [
+              "Allocation of Resources Without Limits or Throttling"
+            ]
+          },
+          {
+            "ja": [
+              "制限または調整なしのリソースの割り当て"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/770.html"
+      },
+      {
+        "weakness_id": 920,
+        "title": [
+          {
+            "en": [
+              "Improper Restriction of Power Consumption"
+            ]
+          },
+          {
+            "ja": [
+              "(電力消費|消費電力）の（不適切な|不十分な）な制限"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/920.html"
+      },
+      {
+        "weakness_id": 404,
+        "title": [
+          {
+            "en": [
+              "Improper Resource Shutdown or Release"
+            ]
+          },
+          {
+            "ja": [
+              "リソースの(不適切な|不十分な)(リリース|解放)",
+              "リソースの不適切なシャットダウンまたはリリース "
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/404.html"
+      },
+      {
+        "weakness_id": 401,
+        "title": [
+          {
+            "en": [
+              "Missing Release of Memory after Effective Lifetime"
+            ]
+          },
+          {
+            "ja": [
+              " (ライフタイム期限後の|有効なライフタイム後の）メモリ解放の欠如",
+              "有効期間後のメモリ解放の欠如"
+            ]
+          }
+        ],
+        "abstraction": "Variant",
+        "url": "https://cwe.mitre.org/data/definitions/401.html"
+      },
+      {
+        "weakness_id": 459,
+        "title": [
+          {
+            "en": [
+              "Incomplete Cleanup"
+            ]
+          },
+          {
+            "ja": [
+              "不完全なクリーンアップ"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/459.html"
+      },
+      {
+        "weakness_id": 763,
+        "title": [
+          {
+            "en": [
+              "Release of Invalid Pointer or Reference"
+            ]
+          },
+          {
+            "ja": [
+              "メモリ解放用関数の正しくない使用"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/763.html"
+      },
+      {
+        "weakness_id": 772,
+        "title": [
+          {
+            "en": [
+              "Missing Release of Resource after Effective Lifetime"
+            ]
+          },
+          {
+            "ja": [
+              " (ライフタイム期限後の|有効なライフタイム後の）リソース解放の欠如",
+              "有効期間後のリソース解放の欠如"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/772.html"
+      },
+      {
+        "weakness_id": 407,
+        "title": [
+          {
+            "en": [
+              "Inefficient Algorithmic Complexity"
+            ]
+          },
+          {
+            "ja": [
+              "非効率なアルゴリズムの使用"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/407.html"
+      },
+      {
+        "weakness_id": 1333,
+        "title": [
+          {
+            "en": [
+              "Inefficient Regular Expression Complexity"
+            ]
+          },
+          {
+            "ja": [
+              "非効率な正規表現の使用"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/1333.html"
+      },
+      {
+        "weakness_id": 436,
+        "title": [
+          {
+            "en": [
+              "Interpretation Conflict"
+            ]
+          },
+          {
+            "ja": [
+              "異なる解釈に基づく異なる処理に起因する誤動作"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/436.html"
+      },
+      {
+        "weakness_id": 444,
+        "title": [
+          {
+            "en": [
+              "Inconsistent Interpretation of HTTP Requests ",
+              "HTTP Request Smuggling"
+            ]
+          },
+          {
+            "ja": [
+              "HTTP リクエストスマグリング"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/444.html"
+      },
+      {
+        "weakness_id": 610,
+        "title": [
+          {
+            "en": [
+              "Externally Controlled Reference to a Resource in Another Sphere"
+            ]
+          },
+          {
+            "ja": [
+              "別領域リソースに対する外部からの制御可能な参照",
+              "異なる領域に属するリソースに対する外部から制御可能な参照"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/610.html"
+      },
+      {
+        "weakness_id": 1021,
+        "title": [
+          {
+            "en": [
+              "Improper Restriction of Rendered UI Layers or Frames"
+            ]
+          },
+          {
+            "ja": [
+              "レンダリングされたユーザインターフェースレイヤまたはフレームの不適切な制限"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/1021.html"
+      },
+      {
+        "weakness_id": 384,
+        "title": [
+          {
+            "en": [
+              "Session Fixation"
+            ]
+          },
+          {
+            "ja": [
+              "セッション固定"
+            ]
+          }
+        ],
+        "abstraction": "Composite",
+        "url": "https://cwe.mitre.org/data/definitions/384.html"
+      },
+      {
+        "weakness_id": 601,
+        "title": [
+          {
+            "en": [
+              "URL Redirection to Untrusted Site ",
+              "Open Redirect"
+            ]
+          },
+          {
+            "ja": [
+              "オープンリダイレクト"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/601.html"
+      },
+      {
+        "weakness_id": 611,
+        "title": [
+          {
+            "en": [
+              "Improper Restriction of XML External Entity Reference"
+            ]
+          },
+          {
+            "ja": [
+              "XML 外部（エンティティ|実体）参照（XXE）の不適切な制限"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/611.html"
+      },
+      {
+        "weakness_id": 918,
+        "title": [
+          {
+            "en": [
+              "Server-Side Request Forgery ",
+              "SSRF"
+            ]
+          },
+          {
+            "ja": [
+              "サーバサイドリクエストフォージェリ"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/918.html"
+      },
+      {
+        "weakness_id": 662,
+        "title": [
+          {
+            "en": [
+              "Improper Synchronization"
+            ]
+          },
+          {
+            "ja": [
+              "不適切な同期処理",
+              "共有リソースに対する不適切な同期処理"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/662.html"
+      },
+      {
+        "weakness_id": 667,
+        "title": [
+          {
+            "en": [
+              "Improper Locking"
+            ]
+          },
+          {
+            "ja": [
+              "リソースに対する不適切なロック(処理)"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/667.html"
+      },
+      {
+        "weakness_id": 665,
+        "title": [
+          {
+            "en": [
+              "Improper Initialization"
+            ]
+          },
+          {
+            "ja": [
+              "（不十分な|不適切な）初期化"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/665.html"
+      },
+      {
+        "weakness_id": 1188,
+        "title": [
+          {
+            "en": [
+              "Insecure Default Initialization of Resource"
+            ]
+          },
+          {
+            "ja": [
+              "リソースの安全ではない値への初期化",
+              "安全ではない値を用いたリソースの初期化"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/1188.html"
+      },
+      {
+        "weakness_id": 908,
+        "title": [
+          {
+            "en": [
+              "Use of Uninitialized Resource"
+            ]
+          },
+          {
+            "ja": [
+              "初期化されていないリソースの使用"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/908.html"
+      },
+      {
+        "weakness_id": 909,
+        "title": [
+          {
+            "en": [
+              "Missing Initialization of Resource"
+            ]
+          },
+          {
+            "ja": [
+              "リソースの初期化の欠如"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/909.html"
+      },
+      {
+        "weakness_id": 668,
+        "title": [
+          {
+            "en": [
+              "Exposure of Resource to Wrong Sphere"
+            ]
+          },
+          {
+            "ja": [
+              "誤った領域へのリソースの漏えい"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/668.html"
+      },
+      {
+        "weakness_id": 134,
+        "title": [
+          {
+            "en": [
+              "Use of Externally-Controlled Format String"
+            ]
+          },
+          {
+            "ja": [
+              "外部から制御可能な書式指定文字列の使用"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/134.html"
+      },
+      {
+        "weakness_id": 426,
+        "title": [
+          {
+            "en": [
+              "Untrusted Search Path"
+            ]
+          },
+          {
+            "ja": [
+              "信頼できない検索パス"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/426.html"
+      },
+      {
+        "weakness_id": 427,
+        "title": [
+          {
+            "en": [
+              "Uncontrolled Search Path Element"
+            ]
+          },
+          {
+            "ja": [
+              "ファイル検索パスの制御不備"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/427.html"
+      },
+      {
+        "weakness_id": 428,
+        "title": [
+          {
+            "en": [
+              "Unquoted Search Path or Element"
+            ]
+          },
+          {
+            "ja": [
+              "引用符で囲まれていない検索パス"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/428.html"
+      },
+      {
+        "weakness_id": 552,
+        "title": [
+          {
+            "en": [
+              "Files or Directories Accessible to External Parties"
+            ]
+          },
+          {
+            "ja": [
+              "外部からアクセス可能なファイルまたはディレクトリ"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/552.html"
+      },
+      {
+        "weakness_id": 669,
+        "title": [
+          {
+            "en": [
+              "Incorrect Resource Transfer Between Spheres"
+            ]
+          },
+          {
+            "ja": [
+              "異なる領域間での不適切なリソースの移動"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/669.html"
+      },
+      {
+        "weakness_id": 212,
+        "title": [
+          {
+            "en": [
+              "Improper Removal of Sensitive Information Before Storage or Transfer"
+            ]
+          },
+          {
+            "ja": [
+              "リソース内の機微な情報の消去が（不十分|不適切）"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/212.html"
+      },
+      {
+        "weakness_id": 434,
+        "title": [
+          {
+            "en": [
+              "Unrestricted Upload of File with Dangerous Type"
+            ]
+          },
+          {
+            "ja": [
+              "アップロードするファイルの検証が不十分"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/434.html"
+      },
+      {
+        "weakness_id": 494,
+        "title": [
+          {
+            "en": [
+              "Download of Code Without Integrity Check"
+            ]
+          },
+          {
+            "ja": [
+              "ダウンロードしたコードの完全性検証不備"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/494.html"
+      },
+      {
+        "weakness_id": 565,
+        "title": [
+          {
+            "en": [
+              "Reliance on Cookies without Validation and Integrity Checking"
+            ]
+          },
+          {
+            "ja": [
+              "検証および完全性チェックを行っていない Cookie への依存",
+              "セキュリティ上重要な処理におけるCookieへの過度な依存",
+              "未検証のCookieに依存した操作"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/565.html"
+      },
+      {
+        "weakness_id": 829,
+        "title": [
+          {
+            "en": [
+              "Inclusion of Functionality from Untrusted Control Sphere"
+            ]
+          },
+          {
+            "ja": [
+              "信頼できない制御領域からの機能の組み込み"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/829.html"
+      },
+      {
+        "weakness_id": 670,
+        "title": [
+          {
+            "en": [
+              "Always-Incorrect Control Flow Implementation"
+            ]
+          },
+          {
+            "ja": [
+              "常に正しくない制御フローとなる実装",
+              "実装誤りによる恒常的な制御フローの不備"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/670.html"
+      },
+      {
+        "weakness_id": 617,
+        "title": [
+          {
+            "en": [
+              "Reachable Assertion"
+            ]
+          },
+          {
+            "ja": [
+              "意図的に発生可能なアサーション違反",
+              "アサーション違反が意図的に発生可能"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/617.html"
+      },
+      {
+        "weakness_id": 672,
+        "title": [
+          {
+            "en": [
+              "Operation on a Resource after Expiration or Release"
+            ]
+          },
+          {
+            "ja": [
+              "有効期限（後l切れ）または解放後のリソースに対する操作"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/672.html"
+      },
+      {
+        "weakness_id": 415,
+        "title": [
+          {
+            "en": [
+              "Double Free"
+            ]
+          },
+          {
+            "ja": [
+              "二重解放"
+            ]
+          }
+        ],
+        "abstraction": "Variant",
+        "url": "https://cwe.mitre.org/data/definitions/415.html"
+      },
+      {
+        "weakness_id": 416,
+        "title": [
+          {
+            "en": [
+              "Use After Free"
+            ]
+          },
+          {
+            "ja": [
+              "解放済みメモリの使用"
+            ]
+          }
+        ],
+        "abstraction": "Variant",
+        "url": "https://cwe.mitre.org/data/definitions/416.html"
+      },
+      {
+        "weakness_id": 613,
+        "title": [
+          {
+            "en": [
+              "Insufficient Session Expiration"
+            ]
+          },
+          {
+            "ja": [
+              "不適切なセッション期限(設定)",
+              "セッション期限の設定が不適切"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/613.html"
+      },
+      {
+        "weakness_id": 674,
+        "title": [
+          {
+            "en": [
+              "Uncontrolled Recursion"
+            ]
+          },
+          {
+            "ja": [
+              "不適切な再帰制御"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/674.html"
+      },
+      {
+        "weakness_id": 776,
+        "title": [
+          {
+            "en": [
+              "Improper Restriction of Recursive Entity References in DTDs ",
+              "XML Entity Expansion"
+            ]
+          },
+          {
+            "ja": [
+              "DTDの再帰的なエンティティ参照の不適切な制限",
+              "XMLエンティティ拡張インジェクション"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/776.html"
+      },
+      {
+        "weakness_id": 682,
+        "title": [
+          {
+            "en": [
+              "Incorrect Calculation"
+            ]
+          },
+          {
+            "ja": [
+              "計算の誤り"
+            ]
+          }
+        ],
+        "abstraction": "Pillar",
+        "url": "https://cwe.mitre.org/data/definitions/682.html"
+      },
+      {
+        "weakness_id": 131,
+        "title": [
+          {
+            "en": [
+              "Incorrect Calculation of Buffer Size"
+            ]
+          },
+          {
+            "ja": [
+              "バッファサイズの計算の誤り"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/131.html"
+      },
+      {
+        "weakness_id": 190,
+        "title": [
+          {
+            "en": [
+              "Integer Overflow or Wraparound"
+            ]
+          },
+          {
+            "ja": [
+              "整数オーバーフローまたはラップアラウンド"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/190.html"
+      },
+      {
+        "weakness_id": 191,
+        "title": [
+          {
+            "en": [
+              "Integer Underflow ",
+              "Wrap or Wraparound"
+            ]
+          },
+          {
+            "ja": [
+              "整数アンダーフロー"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/191.html"
+      },
+      {
+        "weakness_id": 193,
+        "title": [
+          {
+            "en": [
+              "Off-by-one Error"
+            ]
+          },
+          {
+            "ja": [
+              "(Off-by-one|オフバイワン)エラー",
+              "OBOE"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/193.html"
+      },
+      {
+        "weakness_id": 369,
+        "title": [
+          {
+            "en": [
+              "Divide By Zero"
+            ]
+          },
+          {
+            "ja": [
+              "ゼロ除算(エラー)"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/369.html"
+      },
+      {
+        "weakness_id": 697,
+        "title": [
+          {
+            "en": [
+              "Incorrect Comparison"
+            ]
+          },
+          {
+            "ja": [
+              "不適切な比較"
+            ]
+          }
+        ],
+        "abstraction": "Pillar",
+        "url": "https://cwe.mitre.org/data/definitions/697.html"
+      },
+      {
+        "weakness_id": 704,
+        "title": [
+          {
+            "en": [
+              "Incorrect Type Conversion or Cast"
+            ]
+          },
+          {
+            "ja": [
+              "正しくない型変換またはキャスト",
+              "型変換またはキャストの誤り",
+              "不正な型変換またはキャスト"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/704.html"
+      },
+      {
+        "weakness_id": 681,
+        "title": [
+          {
+            "en": [
+              "Incorrect Conversion between Numeric Types"
+            ]
+          },
+          {
+            "ja": [
+              "数値型間の変換の誤り"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/681.html"
+      },
+      {
+        "weakness_id": 843,
+        "title": [
+          {
+            "en": [
+              "Access of Resource Using Incompatible Type ",
+              "Type Confusion"
+            ]
+          },
+          {
+            "ja": [
+              "型の取り違え"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/843.html"
+      },
+      {
+        "weakness_id": 706,
+        "title": [
+          {
+            "en": [
+              "Use of Incorrectly-Resolved Name or Reference"
+            ]
+          },
+          {
+            "ja": [
+              "誤って解決された名前や参照の使用"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/706.html"
+      },
+      {
+        "weakness_id": 178,
+        "title": [
+          {
+            "en": [
+              "Improper Handling of Case Sensitivity"
+            ]
+          },
+          {
+            "ja": [
+              "大文字・小文字の扱いが（不適切|正しくない）",
+              "大文字・小文字の違いに対する不適切な扱い"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/178.html"
+      },
+      {
+        "weakness_id": 22,
+        "title": [
+          {
+            "en": [
+              "Improper Limitation of a Pathname to a Restricted Directory ",
+              "Path Traversal"
+            ]
+          },
+          {
+            "ja": [
+              "パストラバーサル",
+              "ディレクトリトラバーサル"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      {
+        "weakness_id": 59,
+        "title": [
+          {
+            "en": [
+              "Improper Link Resolution Before File Access ",
+              "Link Following"
+            ]
+          },
+          {
+            "ja": [
+              "ファイルにアクセスする時のリンク解釈が不適切",
+              "ファイルアクセス時のリンク解釈が不適切"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/59.html"
+      },
+      {
+        "weakness_id": 732,
+        "title": [
+          {
+            "en": [
+              "Incorrect Permission Assignment for Critical Resource"
+            ]
+          },
+          {
+            "ja": [
+              "重要なリソースに対する（不適切な｜不十分な｜正しくない）（アクセス権|パーミッション）の割り当て"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/732.html"
+      },
+      {
+        "weakness_id": 276,
+        "title": [
+          {
+            "en": [
+              "Incorrect Default Permissions"
+            ]
+          },
+          {
+            "ja": [
+              "インストール時のファイルアクセス権の設定が（不適切｜不十分｜正しくない）",
+              "インストール時の（不適切な｜不十分な｜正しくない）ファイルアクセス権設定"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/276.html"
+      },
+      {
+        "weakness_id": 281,
+        "title": [
+          {
+            "en": [
+              "Improper Preservation of Permissions"
+            ]
+          },
+          {
+            "ja": [
+              "（不適切な｜不十分な｜正しくない）（アクセス権|パーミッション）の保持"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/281.html"
+      },
+      {
+        "weakness_id": 754,
+        "title": [
+          {
+            "en": [
+              "Improper Check for Unusual or Exceptional Conditions"
+            ]
+          },
+          {
+            "ja": [
+              "例外的状況に対する確認が（不十分|不適切）",
+              "例外的状況発生に対する確認が（不十分|不適切）"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/754.html"
+      },
+      {
+        "weakness_id": 252,
+        "title": [
+          {
+            "en": [
+              "Unchecked Return Value"
+            ]
+          },
+          {
+            "ja": [
+              "戻り値のチェック欠如",
+              "戻り値の未チェック"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/252.html"
+      },
+      {
+        "weakness_id": 273,
+        "title": [
+          {
+            "en": [
+              "Improper Check for Dropped Privileges"
+            ]
+          },
+          {
+            "ja": [
+              "権限削除の確認不備",
+              "権限削除成否に対する（不十分|不適切）な確認"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/273.html"
+      },
+      {
+        "weakness_id": 476,
+        "title": [
+          {
+            "en": [
+              "NULL Pointer Dereference"
+            ]
+          },
+          {
+            "ja": [
+              "NULLポインタ参照"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/476.html"
+      },
+      {
+        "weakness_id": 755,
+        "title": [
+          {
+            "en": [
+              "Improper Handling of Exceptional Conditions"
+            ]
+          },
+          {
+            "ja": [
+              "例外的な状態における不適切な処理",
+              "例外的な状況に対する処理が不適切"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/755.html"
+      },
+      {
+        "weakness_id": 834,
+        "title": [
+          {
+            "en": [
+              "Excessive Iteration"
+            ]
+          },
+          {
+            "ja": [
+              "過度な(ループ|反復)(処理|回数)",
+              "ループ回数の制限が（不十分|不適切）",
+              "ループ回数制限の欠如"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/834.html"
+      },
+      {
+        "weakness_id": 835,
+        "title": [
+          {
+            "en": [
+              "Loop with Unreachable Exit Condition ",
+              "Infinite Loop"
+            ]
+          },
+          {
+            "ja": [
+              "無限ループ",
+              "終了条件に到達しないループ"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/835.html"
+      },
+      {
+        "weakness_id": 862,
+        "title": [
+          {
+            "en": [
+              "Missing Authorization"
+            ]
+          },
+          {
+            "ja": [
+              "権限チェックの欠如"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/862.html"
+      },
+      {
+        "weakness_id": 425,
+        "title": [
+          {
+            "en": [
+              "Direct Request ",
+              "Forced Browsing"
+            ]
+          },
+          {
+            "ja": [
+              "強制ブラウズ",
+              "強制ブラウジング"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/425.html"
+      },
+      {
+        "weakness_id": 863,
+        "title": [
+          {
+            "en": [
+              "Incorrect Authorization"
+            ]
+          },
+          {
+            "ja": [
+              "（不適切な|不十分な|正しくない）権限チェック",
+              "認可処理が（不適切な|不十分な|正しくない）",
+              "（認可処理|権限設定）の不備"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/863.html"
+      },
+      {
+        "weakness_id": 639,
+        "title": [
+          {
+            "en": [
+              "Authorization Bypass Through User-Controlled Key"
+            ]
+          },
+          {
+            "ja": [
+              "ユーザ識別情報操作による権限チェック回避"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/639.html"
+      },
+      {
+        "weakness_id": 913,
+        "title": [
+          {
+            "en": [
+              "Improper Control of Dynamically-Managed Code Resources"
+            ]
+          },
+          {
+            "ja": [
+              "動的に変更可能なコードリソースの（不適切な|不十分な）制御"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/913.html"
+      },
+      {
+        "weakness_id": 1321,
+        "title": [
+          {
+            "en": [
+              "Improperly Controlled Modification of Object Prototype Attributes ",
+              "Prototype Pollution"
+            ]
+          },
+          {
+            "ja": [
+              "プロトタイプ汚染"
+            ]
+          }
+        ],
+        "abstraction": "Variant",
+        "url": "https://cwe.mitre.org/data/definitions/1321.html"
+      },
+      {
+        "weakness_id": 470,
+        "title": [
+          {
+            "en": [
+              "Use of Externally-Controlled Input to Select Classes or Code ",
+              "Unsafe Reflection"
+            ]
+          },
+          {
+            "ja": [
+              "安全ではないリフレクション"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/470.html"
+      },
+      {
+        "weakness_id": 502,
+        "title": [
+          {
+            "en": [
+              "Deserialization of Untrusted Data"
+            ]
+          },
+          {
+            "ja": [
+              "信頼できないデータのデシリアライゼーション"
+            ]
+          }
+        ],
+        "abstraction": "Base",
+        "url": "https://cwe.mitre.org/data/definitions/502.html"
+      },
+      {
+        "weakness_id": 922,
+        "title": [
+          {
+            "en": [
+              "Insecure Storage of Sensitive Information"
+            ]
+          },
+          {
+            "ja": [
+              "重要な情報のセキュアでない格納",
+              "機微な情報に対するアクセス権設定の不備",
+              "保存された機微な情報に対するアクセス権設定の不備"
+            ]
+          }
+        ],
+        "abstraction": "Class",
+        "url": "https://cwe.mitre.org/data/definitions/922.html"
+      }
+    ]
+  }
+}
