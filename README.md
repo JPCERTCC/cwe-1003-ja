@@ -7,3 +7,5 @@ CWE-1003 日本語訳
 https://github.com/jpcertcc/cwe-1003-ja/
 
 CWEの著作権はMITREにあります。CWEの使用条件 (https://cwe.mitre.org/about/termsofuse.html) をご一読の上、ご利用ください。
+
+本資料へのご意見や修正提案はIssueやPull Requestで受け付けます。
