@@ -93,14 +93,15 @@ Incorrect： 動作するが、正しく実行しなかった場合を説明す�
 
 ## 5. 補足情報 - セキュリティ設定共通化手順SCAP[^8]
 
-NIST で情報セキュリティ対策の自動化と標準化をめざして開発されたもの
+CWE 以外にも、複数の団体が情報セキュリティに係る仕様を策定しており、SCAP は NIST が情報セキュリティ対策の自動化と標準化をめざして整備したもの
+
+SCAP 1.0 では6個の仕様で構成される
 
 | 略称 | 正式名称 | 概要 |
 | :--- | :---     | :--- |
 | CVE | Common Vulnerabilities and Exposures | 脆弱性を識別する |
 | CCE | Common Configuration Enumeration | セキュリティ設定項目を識別する |
 | CPE | Common Platform Enumeration | 脆弱性がある製品を識別する |
-| CWE | Common Weakness Enumeration | 脆弱性を分類する |
 | CVSS | Common Vulnerability Scoring System | 脆弱性の深刻度を評価する |
 | XCCDF | Extensible Configuration Checklist Description Format | セキュリティ設定のチェックリストを記述する |
 | OVAL | Open Vulnerability and Assessment Language | 脆弱性、セキュリティ設定をチェックするための言語 |
@@ -135,6 +136,6 @@ https://nvd.nist.gov/vuln/categories
 CWE - CWE Mapping Guidance - Common Terms Cheatsheet  
 https://cwe.mitre.org/documents/cwe_usage/common_terms_cheatsheet.html
 
-[^8]: IPA 独立行政法人 情報処理推進機構  
-セキュリティ設定共通化手順SCAP概説  
-https://www.ipa.go.jp/security/vuln/SCAP.html
+[^8]: NIST  
+Security Content Automation Protocol  
+https://csrc.nist.gov/projects/security-content-automation-protocol
