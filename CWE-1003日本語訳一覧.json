@@ -1708,7 +1708,7 @@
             "Authorization Bypass Through User-Controlled Key"
           ],
           "ja": [
-            "ユーザ識別情報操作による権限チェック回避"
+            "ユーザが制御可能な値（もしくは識別子）による認可処理の回避"
           ]
         },
         "abstraction": "Base",
